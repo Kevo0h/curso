@@ -1,0 +1,31 @@
+body {
+background-color: #A9A9A9;
+}
+
+h1{
+	font-size:2rem;
+	text-align: center;
+	font-family:cursive;
+}
+
+li{
+	font-size: 20px;
+	font-family:fantasy ;
+	text-align: center;
+	
+	background-color: white;
+	opacity: 0.2;
+}
+
+
+ul{
+	
+}
+
+
+img{
+
+	object-fit: fill;
+
+}
+

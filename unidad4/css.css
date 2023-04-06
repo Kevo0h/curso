@@ -1,5 +1,6 @@
 body {
-background-color: #A9A9A9;
+
+background-color: #ADD8E6;
 }
 
 h1{
@@ -12,9 +13,9 @@ li{
 	font-size: 20px;
 	font-family:fantasy ;
 	text-align: center;
+	list-style-type: none;
+
 	
-	background-color: white;
-	opacity: 0.2;
 }
 
 
@@ -24,8 +25,20 @@ ul{
 
 
 img{
+	display: block;
+	margin: auto;
 
-	object-fit: fill;
 
 }
+article{
+	margin:auto;
+}
 
+
+
+#navbar{
+	margin:auto;
+	 position:sticky; 
+	 top:0px;
+	 	text-align: center;
+}

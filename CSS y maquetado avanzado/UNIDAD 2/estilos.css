@@ -1,0 +1,73 @@
+#caja-padre{
+	
+	background-color:black;
+border-top: 5px solid #50e5ff;
+border-right: 2px double #50e5ff;
+border-bottom: 5px solid #50e5ff;
+border-left: 2px solid #50e5ff;
+display:flex;
+flex-direction:column;
+width:50%;
+height:500px;	
+
+}
+
+#caja-padre1{
+	
+	background-color:black;
+border-top: 5px solid #50e5ff;
+border-right: 2px double #50e5ff;
+border-bottom: 5px solid #50e5ff;
+border-left: 2px solid #50e5ff;
+display:flex;
+flex-direction:row-reverse;
+width:50%;
+height:500px;	
+justify-content:center;
+align-items:center;
+
+}
+
+#caja-padre2{
+	
+	background-color:black;
+border-top: 5px solid #50e5ff;
+border-right: 2px double #50e5ff;
+border-bottom: 5px solid #50e5ff;
+border-left: 2px solid #50e5ff;
+display:flex;
+justify-content:space-between;
+width:50%;
+height:500px;	
+
+}
+
+
+
+
+#caja-hijo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height: 150px;
+	width:150px;
+	background-color:white;
+
+	
+}
+
+
+
+#caja-hijo:nth-child(1) {
+  background-color: red;
+}
+#caja-hijo:nth-child(2) {
+  background-color: blue;
+}
+#caja-hijo:nth-child(3) {
+  background-color: green;
+}
+
+p{
+	color:white;
+}

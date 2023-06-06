@@ -1,19 +1,19 @@
 
 const cuadrado1 = document.getElementById('cuadrado1');
 cuadrado1.addEventListener('click', function () {
-    this.style.backgroundColor = '#ff0302'
+    this.style.backgroundColor = '#E4BD1E'
 });
 
 
 const cuadrado2 = document.getElementById('cuadrado2');
 cuadrado2.addEventListener('click', function () {
-    this.style.backgroundColor = '#ff0302'
+    this.style.backgroundColor = '#AF49A5'
 });
 
 
 const cuadrado3 = document.getElementById('cuadrado3');
 cuadrado3.addEventListener('click', function () {
-    this.style.backgroundColor = '#ff0302'
+    this.style.backgroundColor = '#89E817'
 });
 
 

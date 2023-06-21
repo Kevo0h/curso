@@ -1,0 +1,15 @@
+
+.containerNav{
+    display: flex;
+    flex-direction: row;
+}
+.containerNav ul {
+ 
+    display: flex;
+    flex-direction: row;
+
+}
+.containerNav ul li {
+   list-style: none;
+    margin-left: 50px;
+}

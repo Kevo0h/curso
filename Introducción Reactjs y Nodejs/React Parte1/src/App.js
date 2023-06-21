@@ -5,24 +5,24 @@ import './styles/components/pages/HomePage.css';
 import './App.css';
 
 import Nav from './components/layout/Nav';
-import Footer from './components/layout/Nav';
+import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 function App() {
   return (
     <div className="App">
-      
-      
-      
+
+
+
       <Nav></Nav>
-     
- 
-    <HomePage>
-   
-   </HomePage>
-    
-    
 
 
+      <HomePage>
+
+      </HomePage>
+
+
+
+      <Footer></Footer>
     </div>
   );
 }

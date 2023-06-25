@@ -1,0 +1,28 @@
+
+.containerNav{
+    display: flex;
+    flex-direction: row;
+}
+.containerNav ul {
+ 
+    display: flex;
+    flex-direction: row;
+
+}
+.containerNav ul li {
+   list-style: none;
+    margin-left: 50px;
+}
+
+a{
+    text-decoration:none;
+    color: black    ;
+}
+
+
+
+nav ul li a.activo{
+    color:white;
+ padding: 17px;
+background: rgb(0,212,255);
+background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(75,75,147,1) 43%, rgba(2,0,36,1) 100%);}

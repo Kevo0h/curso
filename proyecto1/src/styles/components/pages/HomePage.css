@@ -1,0 +1,35 @@
+.HomePage{
+height: 85vh;
+    width: 100%;
+
+color:aliceblue;
+
+display: flex;
+
+    background-image: url("../../../image/imageFondo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+font-size: 50px;
+}
+
+
+.HomePage h1 {
+   height: 50px;
+   margin-right:50px ;
+position: relative;
+top:50px
+}
+
+.HomePage h2 {
+    height: 50px;
+    margin-right:50px ;
+    margin-bottom:70px ;
+    position: relative;
+    
+ }
+
+
+ 
